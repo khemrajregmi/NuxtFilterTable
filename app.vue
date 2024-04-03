@@ -1,5 +1,16 @@
+<script setup lang="ts">
+import { NMessageProvider } from 'naive-ui'
+</script>
+
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-  </div>
+  <n-message-provider>
+    <header>
+    </header>
+    <main>
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </main>
+    <footer></footer>
+  </n-message-provider>
 </template>
