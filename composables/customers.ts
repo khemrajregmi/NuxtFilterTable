@@ -11,7 +11,7 @@ type GetCustomersProps = {
     }
 }
 
-export interface Customer {
+export interface Customers {
     _id: string
     name: string
     email: string
@@ -24,7 +24,7 @@ export interface Customer {
 
 export interface CustomersData {
     current_page: number
-    data: Customer[]
+    data: Customers[]
     first_page_url: string
     from: number
     last_page: number
