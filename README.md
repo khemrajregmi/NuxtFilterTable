@@ -2,6 +2,8 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+You can use your own backend or else you can consume backend apis from  you can use this repo [Laravel Backend](https://github.com/khemrajregmi/laravelMongoDb)
+
 ## Setup
 
 Make sure to install the dependencies:
